@@ -1,0 +1,36 @@
+body{
+    background-color:  #000000
+}
+
+h1{
+    color: #f8f7fa;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+h3{
+    color: #f8f7fa;
+    font-size: 23px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p{
+    color: #f8f7fa;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fade-in{
+    animation: fadeIn 5s;
+
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+
+}
